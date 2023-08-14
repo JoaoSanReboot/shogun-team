@@ -197,12 +197,12 @@ body{
 
 @media (max-width: 512px){
     .titulo-destaque{
-        padding-top: 14%;
+        padding-top: 16%;
     }
 }
 
 @media (max-width: 350px){
     .titulo-destaque{
-        padding-top: 19%;
+        padding-top: 22%;
     }
 }
