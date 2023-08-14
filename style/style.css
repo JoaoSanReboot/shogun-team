@@ -16,6 +16,9 @@
     --cor--dois: #000000;
     --cor--tres: #FFFFFF;
     --cor--quatro: #964E18;
+
+    --font-um: 'Tektur', cursive;
+    --font-dois: 'Yantramanav', sans-serif;
 }
         
 *{
@@ -40,14 +43,14 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 6.5%;
+    padding: 6.9%;
 }
 
 .conteudo-principal{
     display: flex;
     align-items: center;
     flex-direction: column;
-    height: 200%;
+    height: 100%;
 }
 
 .titulo-destaque{
@@ -57,7 +60,7 @@ body{
     flex-direction: column;
 
     padding-top: 5%;
-    font-family: 'Tektur', cursive;
+    font-family: var(--font-um);
     font-size: 1.6rem;
     font-weight: 900;
 
@@ -70,8 +73,9 @@ body{
     align-items: center;
     flex-direction: column;
     padding-top: 2%;
-    gap: 24px;
-    font-family: 'Yantramanav', sans-serif;
+    gap: 25px;
+    font-family: var(--font-dois);
+    margin-bottom: 5%;
 }
 
 .botao-um{
@@ -169,5 +173,6 @@ body{
     transform: translateY(2px);
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   }
+
 
 
