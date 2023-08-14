@@ -38,7 +38,11 @@ body{
     background-color: var(--cor--um);
     width: 100%;
     height: 95px;
-    position: absolute;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
 }
 
 .menu-superior img{
@@ -52,8 +56,8 @@ body{
     display: flex;
     align-items: center;
     flex-direction: column;
+    width: 100%;
     height: 100%;
-    padding-top: 5%;
 }
 
 .titulo-destaque{
@@ -177,4 +181,20 @@ body{
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   }
 
+@media (max-width: 950px){
+    .titulo-destaque{
+        padding-top: 9%;
+    }
+}
 
+@media (max-width: 717px){
+    .titulo-destaque{
+        padding-top: 12%;
+    }
+}
+
+@media (max-width: 512px){
+    .titulo-destaque{
+        padding-top: 14%;
+    }
+}
