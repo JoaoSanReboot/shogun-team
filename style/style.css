@@ -228,7 +228,7 @@ body{
 @media (max-width: 550px){
     .menu-links{
         left: 20%;
-        gap: 190px;
+        gap: 200px;
     }
 }
 
@@ -238,8 +238,8 @@ body{
     }
 
     .menu-links{
-        left: 18%;
-        gap: 160px;
+        left: 16%;
+        gap: 190px;
     }
 }
 
@@ -257,6 +257,6 @@ body{
 
     .menu-links{
         left: 12%;
-        gap: 140px;
+        gap: 155px;
     }
 }
