@@ -41,17 +41,19 @@ body{
 }
 
 .menu-links{
+    position: absolute;
+    top: 32px; 
+    left: 13.5%; 
     display: flex;
-    position: fixed;
-    padding: 2.7% 50% 0% 0%;
-    gap: 80px;
+    flex-direction: row;
+    gap: 90px;
 }
 
 .botao-menu{
     font-size: 1.3rem;
     text-decoration: none;
 
-    color: #000000;
+    color: var(--cor--dois);
     font-family: var(--font-dois);
     font-weight: 600;
 }
@@ -61,6 +63,7 @@ body{
     justify-content: center;
     justify-content: space-between;
 }
+
 
 .menu-superior img{
     flex-direction: column;
