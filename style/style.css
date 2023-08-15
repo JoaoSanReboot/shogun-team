@@ -207,11 +207,28 @@ body{
     .titulo-destaque{
         padding-top: 9%;
     }
+
+    .menu-links{
+        left: 8%;
+        gap: 60px;
+    }
 }
 
 @media (max-width: 717px){
     .titulo-destaque{
         padding-top: 12%;
+    }
+
+    .menu-links{
+        left: 23%;
+        gap: 200px;
+    }
+}
+
+@media (max-width: 550px){
+    .menu-links{
+        left: 20%;
+        gap: 190px;
     }
 }
 
@@ -219,10 +236,27 @@ body{
     .titulo-destaque{
         padding-top: 16%;
     }
+
+    .menu-links{
+        left: 18%;
+        gap: 160px;
+    }
+}
+
+@media (max-width: 370px){
+    .menu-links{
+        left: 14%;
+        gap: 150px;
+    }
 }
 
 @media (max-width: 350px){
     .titulo-destaque{
         padding-top: 22%;
+    }
+
+    .menu-links{
+        left: 12%;
+        gap: 140px;
     }
 }
