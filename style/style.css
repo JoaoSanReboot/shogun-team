@@ -252,6 +252,28 @@ body{
     }
 }
 
+@media (max-width: 420px){
+    .titulo-destaque{
+        padding-top: 18%;
+    }
+
+    .menu-links{
+        left: 16%;
+        gap: 150px;
+    }
+}
+
+@media (max-width: 407px){
+    .titulo-destaque{
+        padding-top: 18%;
+    }
+
+    .menu-links{
+        left: 16%;
+        gap: 160px;
+    }
+}
+
 @media (max-width: 370px){
     .menu-links{
         left: 11.2%;
