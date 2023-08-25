@@ -60,7 +60,7 @@ header{
     padding-right: 55%; 
     flex-direction: row;
     gap: 50px;
-    position: fixed;
+    position: absolute;
 }
 
 .botao-menu{
