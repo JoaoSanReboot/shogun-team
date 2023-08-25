@@ -386,7 +386,9 @@ header{
     .titulo-destaque{
          padding-top: 15%;
     }  
-
+    .container-about{
+        padding: 15% 0% 0% 0%;
+      }
 }
 
 @media (max-width: 600px){
@@ -411,6 +413,9 @@ header{
     .titulo-destaque{
          padding-top: 25%;
     }  
+    .container-about{
+        padding: 20% 0% 0% 0%;
+      }
 
 }
 
@@ -420,6 +425,9 @@ header{
         padding-left: 55%;
          gap: 150px;
     }  
+    .container-about{
+        padding: 25% 0% 0% 0%;
+      }
 
 }
 
