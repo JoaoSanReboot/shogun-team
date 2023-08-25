@@ -50,10 +50,10 @@ body{
 }
 
 .menu-links{
-    position: absolute;
-    top: 32px; 
-    left: 15%; 
     display: flex;
+    justify-content: left;
+    padding-top: 32px; 
+    padding-right: 55%; 
     flex-direction: row;
     gap: 50px;
 }
@@ -71,6 +71,7 @@ body{
     display: flex;
     justify-content: center;
     justify-content: space-between;
+    position: fixed;
 }
 
 
@@ -78,7 +79,7 @@ body{
     flex-direction: column;
     align-items: center;
     padding: 10% 0% 0% 0%;
-    height: 150%;
+    height: 40%;
     width: 100%;
 }
 
@@ -212,82 +213,44 @@ body{
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   }
 
-@media (max-width: 772px){
+  @media (max-width: 1100px){
+            
     .titulo-destaque{
-        padding-top: 12%;
-    }
+         padding-top: 10%;
+    }  
 
-    .menu-links{
-        left: 8%;
-        gap: 30px;
-    }
 }
 
-@media (max-width: 550px){
-    .menu-links{
-        left: 20%;
-        gap: 200px;
-    }
-}
-
-@media (max-width: 512px){
+@media (max-width: 750px){
+            
     .titulo-destaque{
-        padding-top: 16%;
-    }
+         padding-top: 15%;
+    }  
 
-    .menu-links{
-        left: 16%;
-        gap: 190px;
-    }
 }
 
-@media (max-width: 430px){
+@media (max-width: 600px){
+            
+    .menu-links{
+        padding-left: 55%;
+         gap: 200px;
+    }  
+
+}
+
+@media (max-width: 450px){
+            
     .titulo-destaque{
-        padding-top: 18%;
-    }
+         padding-top: 25%;
+    }  
 
-    .menu-links{
-        left: 16%;
-        gap: 160px;
-    }
 }
 
-@media (max-width: 420px){
-    .titulo-destaque{
-        padding-top: 18%;
-    }
-
+@media (max-width: 390px){
+            
     .menu-links{
-        left: 16%;
-        gap: 150px;
-    }
-}
+        padding-left: 55%;
+         gap: 150px;
+    }  
 
-@media (max-width: 407px){
-    .titulo-destaque{
-        padding-top: 18%;
-    }
-
-    .menu-links{
-        left: 16%;
-        gap: 160px;
-    }
-}
-
-@media (max-width: 370px){
-    .menu-links{
-        left: 11.2%;
-        gap: 170px;
-    }
-}
-
-@media (max-width: 350px){
-    .titulo-destaque{
-        padding-top: 22%;
-    }
-
-    .menu-links{
-        left: 8.7%;
-        gap: 155px;
-    }
 }
