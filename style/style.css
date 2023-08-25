@@ -230,8 +230,7 @@ header{
   .container-about{
     display: flex;
     justify-content: center;
-    justify-content: space-between;
-    padding: 10%;
+    padding: 10% 15% 0% 0%;
   }
 
   .cubo-um{
@@ -240,17 +239,6 @@ header{
 
     border-radius: 20px 20px 0 0;
     background-color: var(--cor--cinco);
-  }
-
-  .titulo-funcionamento{
-    color: var(--cor--tres);
-    font-family: var(--font-dois);
-    font-weight: 600;
-    font-size: 1.8rem;
-
-    display: flex;
-    justify-content: center;
-    padding-top: 2%;
   }
   
   .cubo-dois{
@@ -310,6 +298,17 @@ header{
     background-color: var(--cor--cinco);
   }
 
+  .titulo-funcionamento{
+    color: var(--cor--tres);
+    font-family: var(--font-um);
+    font-weight: 600;
+    font-size: 1.8rem;
+
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
+  }
+
   .dia-semana{
     font-family: var(--font-um);
     color: var(--cor--tres);
@@ -343,6 +342,24 @@ header{
 .horario-semana {
   margin: 0 25px;
 }
+
+
+.cubo-um,
+.cubo-dois,
+.cubo-tres,
+.cubo-quatro,
+.cubo-cinco,
+.cubo-seis,
+.cubo-sete,
+.cubo-oito,
+.cubo-nove {
+  width: 150%;
+  height: 25%;
+  display: flex;
+  align-items: center;
+}
+
+
 
   @media (max-width: 1100px){
             
@@ -385,3 +402,4 @@ header{
     }  
 
 }
+
