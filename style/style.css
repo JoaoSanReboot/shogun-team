@@ -32,6 +32,9 @@ body{
     background-color: var(--cor--dois);
 }
 
+header{
+    width: 100%;
+}
 .menu-superior{
     display: flex;
     justify-content: center;
