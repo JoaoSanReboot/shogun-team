@@ -33,9 +33,6 @@ body{
     background-color: var(--cor--dois);
 }
 
-header{
-    width: 100%;
-}
 
 .menu-superior{
     display: flex;
@@ -387,7 +384,7 @@ header{
          padding-top: 15%;
     }  
     .container-about{
-        padding: 15% 0% 0% 0%;
+        padding: 30% 0% 0% 0%;
       }
 }
 
@@ -414,7 +411,7 @@ header{
          padding-top: 25%;
     }  
     .container-about{
-        padding: 20% 0% 0% 0%;
+        padding: 40% 0% 0% 0%;
       }
 
 }
@@ -426,7 +423,7 @@ header{
          gap: 150px;
     }  
     .container-about{
-        padding: 25% 0% 0% 0%;
+        padding: 50% 0% 0% 0%;
       }
 
 }
