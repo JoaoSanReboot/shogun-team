@@ -16,6 +16,7 @@
     --cor--dois: #000000;
     --cor--tres: #FFFFFF;
     --cor--quatro: #964E18;
+    --cor--cinco: #4F4944;
 
     --font-um: 'Tektur', cursive;
     --font-dois: 'Yantramanav', sans-serif;
@@ -226,8 +227,122 @@ header{
     opacity: 40%;
   }
 
+  .container-about{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 10%;
+  }
 
+  .cubo-um{
+    width: 725px; 
+    height: 64px;
 
+    border-radius: 20px 20px 0 0;
+    background-color: var(--cor--cinco);
+  }
+
+  .titulo-funcionamento{
+    color: var(--cor--tres);
+    font-family: var(--font-dois);
+    font-weight: 600;
+    font-size: 1.8rem;
+
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
+  }
+  
+  .cubo-dois{
+    width: 725px; 
+    height: 64px;
+
+    background-color: var(--cor--um);
+  }
+
+  .cubo-tres{
+    width: 725px; 
+    height: 64px;
+
+    background-color: var(--cor--quatro);
+  }
+
+  .cubo-quatro{
+    width: 725px; 
+    height: 64px;
+
+    background-color: var(--cor--um);
+  }
+
+  .cubo-cinco{
+    width: 725px; 
+    height: 64px;
+
+    background-color: var(--cor--quatro);
+  }
+
+  .cubo-seis{
+    width: 725px; 
+    height: 64px;
+
+    background-color: var(--cor--um);
+  }
+
+  .cubo-sete{
+    width: 725px; 
+    height: 64px;
+
+    background-color: var(--cor--quatro);
+  }
+
+  .cubo-oito{
+    width: 725px; 
+    height: 64px;
+
+    background-color: var(--cor--um);
+  }
+
+  .cubo-nove{
+    width: 725px; 
+    height: 55px;
+
+    border-radius: 0 0 40px 40px;
+    background-color: var(--cor--cinco);
+  }
+
+  .dia-semana{
+    font-family: var(--font-um);
+    color: var(--cor--tres);
+    font-size: 1.6rem;
+    justify-content: left;
+  }
+
+  .horario-semana{
+    font-family: var(--font-um);
+    color: var(--cor--tres);
+    font-size: 1.6rem;
+
+    display: flex;
+    justify-content: right;
+  }
+
+.cubo-dois,
+.cubo-tres,
+.cubo-quatro,
+.cubo-cinco,
+.cubo-seis,
+.cubo-sete,
+.cubo-oito,
+.cubo-nove {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.dia-semana,
+.horario-semana {
+  margin: 0 25px;
+}
 
   @media (max-width: 1100px){
             
