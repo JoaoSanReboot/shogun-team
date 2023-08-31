@@ -485,6 +485,10 @@ body{
     padding-bottom: 8%;
   }
 
+  .bi-geo-alt-fill{
+    font-size: 1.9rem;
+  }
+
   .titulo-destaque{
     padding-top: 17%;
   }
@@ -550,6 +554,10 @@ body{
       padding-bottom: 12%;
     }
 
+    .bi-geo-alt-fill{
+      font-size: 1.8rem;
+    }
+
     .titulo-destaque{
       padding-top: 20%;
     }
@@ -587,6 +595,8 @@ body{
     .horario-semana{
         font-size: 0.8rem;
     }
-
+    .bi-geo-alt-fill{
+      font-size: 1.6rem;
+    }
 }
 
