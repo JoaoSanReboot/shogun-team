@@ -514,6 +514,11 @@ body{
     .conteudo-localizacao-dois{
       font-size: 0.7rem;
     }
+
+    .botao-localizacao{
+      height: 100px;
+    }
+
     .botao-localizacao:hover {
       width: 350px;
       height: 100px;
@@ -533,10 +538,12 @@ body{
     .horario-semana{
         font-size: 1rem;
     }
+    .botao-localizacao{
+      height: 70px;
+    }
     .botao-localizacao:hover {
       width: 330px;
       height: 70px;
-      clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 15% 100%);
     }
     .container-local{
       padding-top: 20%;
@@ -558,11 +565,15 @@ body{
       padding-top: 25%;
     }
 
+    .botao-localizacao{
+      height: 70px;
+    }
+
     .botao-localizacao:hover {
       width: 300px;
       height: 70px;
-      clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 15% 100%);
     }
+
     .container-local{
       padding-top: 24%;
       padding-bottom: 12%;
