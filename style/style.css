@@ -553,6 +553,15 @@ body{
 }
 
 @media (max-width: 450px){
+
+    .copy-button{
+      width: 28px;
+      height: 28px;
+    }
+
+    .bi-files{
+      font-size: 1rem;
+    }
             
     .titulo-funcionamento{
         font-size: 1rem;
@@ -586,6 +595,15 @@ body{
 
 @media (max-width: 390px){
             
+  .copy-button{
+    width: 22px;
+    height: 22px;
+  }
+
+  .bi-files{
+    font-size: 8rem;
+  }
+          
     .menu-links{
          gap: 150px;
     }  
