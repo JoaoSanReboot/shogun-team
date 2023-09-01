@@ -17,6 +17,7 @@
     --cor--tres: #FFFFFF;
     --cor--quatro: #964E18;
     --cor--cinco: #4F4944;
+    --cor--seis: #442315;
 
     --font-um: 'Tektur', cursive;
     --font-dois: 'Yantramanav', sans-serif;
@@ -256,6 +257,9 @@ body{
       font-size: 2rem;
       position: relative;
     }
+    .copy-container{
+      opacity: 1;
+    }
   }
 
   .bi-geo-alt-fill{
@@ -290,21 +294,38 @@ body{
     transition: all .3s ease-out;
   }
 
+  .copy-container{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+    overflow: hidden;
+    opacity: 0;
+  }
+
   .copy-button{
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 12px;
+    border-style: none;
+    cursor: pointer;
     
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
 
     background-color: var(--cor--quatro);
   }
 
+  
+  .copy-button:active{
+    background-color: var(--cor--seis);
+  }
+
+  
   .bi-files{
     padding-top: 5px;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
 
   .container-about{
