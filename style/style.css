@@ -317,12 +317,7 @@ body{
     background-color: var(--cor--quatro);
   }
 
-  
-  .copy-button:active{
-    background-color: var(--cor--seis);
-  }
-
-  .copy-button::before{
+  .copy-message {
     content: "Copiado";
     position: absolute;
     border-radius: 10px;
@@ -338,26 +333,26 @@ body{
     background-color: var(--cor--quatro);
 
     display: none;
+    white-space: nowrap;
+}
+
+.copy-message::before {
+  content: ''; 
+  width: 0;
+  height: 0;
+  border-left: 6px solid transparent; 
+  border-right: 6px solid var(--cor--quatro); 
+  border-top: 6px solid transparent; 
+  border-bottom: 6px solid transparent; 
+  position: absolute;
+  left: -10px; 
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+  .copy-button:active{
+    background-color: var(--cor--seis);
   }
-
-  .copy-button::after{
-    content: "";
-    position: absolute;
-
-    right: 120px;
-    width: 6px;
-    height: 6px;
-    background-color: var(--cor--quatro);
-
-    transform: rotate(45deg);
-    display: none;
-  }
-
-  .copy-button.copy-button:active::before,
-  .copy-button.copy-button:active::after{
-    display: block;
-  }
-
   
   .bi-files{
     padding-top: 5px;
@@ -586,6 +581,24 @@ body{
       clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 15% 100%);
     }
 
+    .copy-message {
+      border-radius: 7px;
+      padding-bottom: 2px;
+      padding-top: 2px;
+      padding-left: 5px;
+      padding-right: 5px;
+      right: 45px;
+
+      font-size: .7rem;
+  }
+  
+  .copy-message::before {
+    left: -5.8px;
+    border-left: 3px solid transparent; 
+    border-right: 3px solid var(--cor--quatro); 
+    border-top: 3px solid transparent; 
+    border-bottom: 3px solid transparent; 
+  }
 }
 
 @media (max-width: 450px){
@@ -612,7 +625,6 @@ body{
       height: 70px;
     }
     .botao-localizacao:hover {
-      width: 330px;
       height: 70px;
     }
     .container-local{
@@ -674,5 +686,16 @@ body{
     .bi-geo-alt-fill{
       font-size: 1.6rem;
     }
+
+    .copy-message {
+      border-radius: 7px;
+      padding-bottom: 2px;
+      padding-top: 2px;
+      padding-left: 5px;
+      padding-right: 5px;
+      right: 40px;
+
+      font-size: .5rem;
+  }
 }
 

@@ -27,22 +27,22 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 });
 
+document.addEventListener("DOMContentLoaded", function () {
+    const copyButton = document.getElementById("botao");
+    const message = document.createElement("div");
+    message.textContent = "Copiado";
+    message.classList.add("copy-message");
 
-function ativarDesativarBotao() {
-    var botao = document.getElementById("botao");
-    
-    // Ativar o botão
-    botao.classList.add("active");
-    
-    // Desativar o botão após 2500 milissegundos (2,5 segundos)
-    setTimeout(function() {
-        botao.classList.remove("active");
-    }, 2500);
-}
+    copyButton.appendChild(message);
 
-// Adicionar um ouvinte de eventos para o clique no botão
-document.getElementById("botao").addEventListener("click", ativarDesativarBotao);
+    copyButton.addEventListener("click", function () {
+        message.style.display = "block";
 
+        setTimeout(function () {
+            message.style.display = "none";
+        }, 2500);
+    });
+});
 
 
 
