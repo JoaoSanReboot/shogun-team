@@ -359,7 +359,6 @@ body{
     font-size: 1.2rem;
   }
 
-
   .container-about{
     display: flex;
     justify-content: center;
@@ -594,7 +593,7 @@ body{
   }
   
   .copy-message::before {
-    left: -5.8px;
+    left: -5px;
     border-left: 3px solid transparent; 
     border-right: 3px solid var(--cor--quatro); 
     border-top: 3px solid transparent; 
