@@ -322,6 +322,42 @@ body{
     background-color: var(--cor--seis);
   }
 
+  .copy-button::before{
+    content: "Copiado";
+    position: absolute;
+    border-radius: 10px;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    padding-left: 7px;
+    padding-right: 7px;
+    right: 65px;
+
+    font-family: var(--font-dois);
+    font-weight: 600;
+    font-size: .8.6rem;
+    background-color: var(--cor--quatro);
+
+    display: none;
+  }
+
+  .copy-button::after{
+    content: "";
+    position: absolute;
+
+    right: 120px;
+    width: 6px;
+    height: 6px;
+    background-color: var(--cor--quatro);
+
+    transform: rotate(45deg);
+    display: none;
+  }
+
+  .copy-button.copy-button:active::before,
+  .copy-button.copy-button:active::after{
+    display: block;
+  }
+
   
   .bi-files{
     padding-top: 5px;

@@ -28,5 +28,22 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 
+function ativarDesativarBotao() {
+    var botao = document.getElementById("botao");
+    
+    // Ativar o botão
+    botao.classList.add("active");
+    
+    // Desativar o botão após 2500 milissegundos (2,5 segundos)
+    setTimeout(function() {
+        botao.classList.remove("active");
+    }, 2500);
+}
+
+// Adicionar um ouvinte de eventos para o clique no botão
+document.getElementById("botao").addEventListener("click", ativarDesativarBotao);
+
+
+
 
 
