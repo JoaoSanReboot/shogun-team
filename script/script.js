@@ -44,6 +44,24 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
+const elemento = document.getElementById('btn-lcl');
+
+elemento.addEventListener('touchstart', function() {
+
+ const conteudoLocalizacaoUm = document.querySelector('.conteudo-localizacao-um');
+ conteudoLocalizacaoUm.style.opacity = '1';
+
+ const conteudoLocalizacaoDois = document.querySelector('.conteudo-localizacao-dois');
+ conteudoLocalizacaoDois.style.opacity = '1';
+
+ const biGeoAltFill = document.querySelector('.bi-geo-alt-fill');
+ biGeoAltFill.style.fontSize = '2rem';
+ biGeoAltFill.style.position = 'relative';
+
+ const copyContainer = document.querySelector('.copy-container');
+ copyContainer.style.opacity = '1';
+});
+
 
 
 
