@@ -644,7 +644,7 @@ body{
 @media (max-width: 390px){
             
   .copy-button{
-    width: 22spx;
+    width: 22px;
     height: 22px;
     border-radius: 9px;
   }
@@ -699,3 +699,38 @@ body{
   }
 }
 
+@media (max-width: 250px){
+
+    .menu-links{
+         gap: 130px;
+    }  
+
+    .botao-localizacao:hover {
+      width: 250px;
+      height: 70px;
+    }
+
+    .container-local{
+      padding-top: 28%;
+      padding-bottom: 20%;
+    }
+
+    .titulo-funcionamento{
+      font-size: 0.5rem;
+  }
+  .dia-semana{
+      font-size: 0.5rem;
+  }
+  .horario-semana{
+      font-size: 0.5rem;
+  }
+
+    .bi-geo-alt-fill{
+      font-size: 1rem;
+    }
+
+    .copy-message {
+      right: 20px;
+      font-size: .5rem;
+  }
+}
